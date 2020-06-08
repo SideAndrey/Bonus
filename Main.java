@@ -1,10 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        float original = 100;
-        float add = 1100;
-        float limit = 1000;
-        float bonus = add/100;
-        if (add>limit) {
+        int original = 100;
+        int add = 1221;
+        int limit = 1000;
+        if (add>limit)
+        { int bonus = add/100;
+
             System.out.println(bonus);
             return;
         }
